@@ -1,0 +1,91 @@
+
+body {
+  margin:0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AFC8AD;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+button img{
+  width:30px;
+  height:30px;
+  cursor: pointer;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color:#88AB8E;
+}
+
+
+#home{
+  padding:200px;
+  margin-top:30px;
+  height:440px;
+}
+
+#about{
+  padding:200px;
+  margin-top:30px;
+  height:440px;
+}
+
+#experience{
+  padding:200px;
+  margin-top:30px;
+  height:440px;
+}
+
+#experience img{
+  width:50px;
+  height:50px;
+}
+
+#education{
+  padding:200px;
+  margin-top:30px;
+  height:440px;
+}
+
+#education img{
+  width:50px;
+  height:50px;
+}
+
+#contact{
+  padding:200px;
+  margin-top:30px;
+  height:440px;
+}
