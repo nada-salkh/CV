@@ -1,41 +1,72 @@
-<!DOCTYPE HTML>
-
-<HTML>
-
-<HEAD>
-  <TITLE> CV </TITLE>
+<!DOCTYPE html>
+<html>
+<head>
+<title> CV </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <LINK rel="icon" type="image/png" href="img/icon.png">
-</HEAD>
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-<BODY>
-	<h1>nada alkhalifah</h1>
-	<h2>computer scientist</h2>
+<body>
 
-	<h3>about me</h3>
-	<p>As a Computer Science student, my ambition is to excel in various facets of the field. I am actively seeking opportunities in environments that foster professional growth, <br>enabling me to contribute meaningfully and serve as a positive example of a Saudi woman thriving in the field of Computer Science</p>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <button onclick="myFunction()">
+      <img src="img/moon.png">
+    </button>
+</ul>
 
-	<h3>experience</h3>
-	<img src="img/logo.png" alt="panorama logo" style="width:50px;height:50px;">
-	<p>panorama summer training (2024 june - 2024 august)</p>
-	<a href="https://panorama-q.com/" target="_blank">Visit panorama</a>
+    <div id="home">
+      <h1>السلام عليكم ورحمة الله وبركاته</h1>
+    </div>
+
+
+      
+    <div id="about">
+      <h1>nada alkhalifah</h1>
+      <p>As a Computer Science student, my ambition is to excel in various facets<br> of the field. I am actively seeking opportunities in environments that foster <br>professional growth, enabling me to contribute meaningfully and serve as a positive <br>example of a Saudi woman thriving in the field of Computer Science</p>
+    </div>
     
-    <h3>education</h3>
-    <img src="img/qulogo.jpg" alt="qassim university logo" style="width:50px;height:50px;">
-    <p>qassim university (2020 - 2025)</p>
-    <p>computer science</p>
-    <a href="https://www.qu.edu.sa/" target="_blank">Visit qassim university</a>
 
-	<hr>
-
-    <h3>contact information</h3>
-    <p>saudi arabia - alrass</p>
-    <p>phone: +966505963535</p>
-    <p>email: nada.salkh@gmail.com</p>
+    <div id="experience">
+      <h1>experience</h1>
+      <img src="img/logo.png" alt="panorama logo">
+      <p>panorama summer training (2024 june - 2024 august)</p>
+      <a href="https://panorama-q.com/" target="_blank">Visit panorama</a>
+    </div>
 
 
+    <div id="education">
+      <h1>education</h1>
+      <img src="img/qulogo.jpg" alt="qassim university logo">
+      <p>qassim university (2020 - 2025)</p>
+      <p>computer science</p>
+      <a href="https://www.qu.edu.sa/" target="_blank">Visit qassim university</a>
+    </div>
 
-</BODY>
 
-</HTML>
+    <div id="contact">
+      <h1>contact</h1>
+      <p>saudi arabia - alrass</p>
+      <p>phone: +966505963535</p>
+      <p>email: nada.salkh@gmail.com</p>
+    </div>
+
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+
+</html>
+
+
